@@ -16,6 +16,7 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
+
         int[] arr = {52,63,23,41,90,1,40};
         int[] ans = Insertion_sort(arr);
         for (var ele : ans){

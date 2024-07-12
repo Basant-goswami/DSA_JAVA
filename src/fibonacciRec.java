@@ -24,6 +24,7 @@ public class fibonacciRec {
 //        System.out.print(n1+" ");
 //        System.out.print1(n2+" ");
 //        fibonacci(n-2);
+
         for (int i=0;i<n;i++){
             System.out.print(fibonacci_2(i)+" ");
         }
