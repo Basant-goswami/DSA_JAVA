@@ -1,5 +1,7 @@
 package Zoho_prep;
 
+// not completed task
+
 public class subString {
     private static void printSubstring(String str, StringBuilder ans, int i){
         // base case

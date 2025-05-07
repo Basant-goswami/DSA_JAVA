@@ -1,9 +1,11 @@
 package Questions;
 
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.Stack;
 
 public class UnbalanceParanthesis {
+
     private static String solution(String s){
         Stack<Integer> st = new Stack<>();
         HashSet<Integer> hs = new HashSet<>();
@@ -32,7 +34,10 @@ public class UnbalanceParanthesis {
         return ans.toString();
     }
     public static void main(String[] args) {
-        String inp = "((abc)((de))";
+//        String inp = "((abc)((de))";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string with paranthesis : ");
+        String inp = sc.next();
         String result = solution(inp);
         System.out.println(result);
     }
